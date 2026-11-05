@@ -1,0 +1,90 @@
+# =============================================================================
+# Python & Bytecode
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =============================================================================
+# Virtual Environments
+# =============================================================================
+.venv/
+venv/
+ENV/
+env/
+conda-env/
+
+# =============================================================================
+# Jupyter Notebook Checkpoints
+# =============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# =============================================================================
+# Datasets (Keep directory structure & READMEs, ignore bulk image files)
+# =============================================================================
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/README.md
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# =============================================================================
+# Trained Model Checkpoints & Large Binary Artifacts
+# =============================================================================
+results/models/*
+!results/models/.gitkeep
+!results/models/README.md
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.ckpt
+*.pkl
+*.joblib
+*.onnx
+
+# =============================================================================
+# IDEs, Editors & OS Files
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Word / PowerPoint temporary lock files
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
